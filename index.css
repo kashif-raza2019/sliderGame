@@ -1,0 +1,116 @@
+  html{
+		 scroll-behaviour: smooth;
+		}
+		body{
+		 background-color:#1b3451; 
+		 margin: 0px;
+		 padding: 0px;
+		}
+	   
+	   
+		 #gameCanvas{
+		  display: block;
+		  padding: 0;
+		  margin: 0 auto;
+		  margin-top: 10px;
+		  margin-bottom: 4px;
+		 }
+	     #enter{
+		  height: 200px;
+		  width: 90%;
+		  background-image: linear-gradient(-90deg, white,#9095a0, #9095a0,white);
+		  padding: 0 auto;
+		  margin: 0 auto;
+		  display: flex;
+		  justify: center;
+		  align-items: center;
+		  text-align: center;
+		  z-index: 1000;
+		  border-radius: 15px;
+		  border: 5px #4f1a4b solid;
+		 }
+		 #enter-btn{
+		  height: 40px;
+		  width: 21%;
+		  text-align: center;
+		  margin: 0 auto;
+		  border-style: none;
+		  color: blue;
+		  font-family: 'Lobster', 'Cursive';
+	      font-size: 1.4em;
+		  background-color: white;
+		  text-decoration: none;
+		  border: 1px solid purple;
+		  border-radius: 8%;
+		 }
+		 #enter-btn:focus{
+		  border-style: none;
+		  border-radius: 10%;
+		 }
+		 #enter-btn:hover{
+		  background-color:#9095a0;
+		  border: 1px solid white;
+          color: white;		  
+		 }
+		 #site-btn{
+		  height: 40px;
+		  width: 21%;
+		  text-align: center;
+		  margin: 0 auto;
+		  border-style: none;
+		  color: blue;
+	      font-size: 1.0em;
+		  font-family: 'Lobster', 'Cursive';
+		  background-color: white;
+		  text-decoration: none;
+		  border: 1px solid purple;
+		  border-radius: 8%;
+		 }
+		 #site-btn:hover{
+		  background-color:#9095a0;
+          color: white;		
+		  border: 1px solid white;			  
+		 }
+		 a{
+		  text-decoration: none;
+		  color:#2b3642 ;
+		  font-family: 'Lobster', 'Cursive';
+		 }
+		 a:hover{
+		  color:#171d23 ;
+		 }
+		
+		 footer{
+		  height: 70px;
+		  width: 100.2%;
+		  background-color:#081026;
+          color: #d5dbea;
+          position: relative;
+          text-align: center;
+          padding: 0;
+		  font-size: 20px;	  
+		  margin:0 auto;
+		  margin-right: 0px;
+		  margin-bottom: 0px;
+		 }
+		 footer p{
+		 margin: 0;
+		 padding: 0;
+		 }
+		 #reload{
+		 cursor: pointer;
+		 background-color:#081026;
+         color: #d5dbea;
+         border-style: none;
+         font-size: 18px;
+         margin: 0px auto;
+		 margin-left: 10px;
+		 text-decoration: none;
+		 }
+		 #reload:focus{
+		  border-style: none;
+		  
+		 }
+		 #reload:hover{
+		  color: white;
+		 }
